@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'PageController@root')->name('root');
+Route::post('verification', 'PageController@verification')->name('verfication');
+Route::get('index', 'PageController@index')->name('index');
+Route::get('phone', 'PageController@phone')->name('phone');
